@@ -1,0 +1,57 @@
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    position: relative;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+  
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-left: 150px;
+    }
+  
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+      justify-content: center;
+      align-items: center;
+  
+      li a {
+        text-decoration: none;
+        color: #333;
+
+      }
+    }
+  
+    .signup-button {
+      background-color: rgb(246, 238, 238);
+      color: black;
+      border: none;
+      padding: 10px 20px;
+      margin-right: 200px;
+      border-radius: 15px;
+      cursor: pointer;
+
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 165px;  
+        right: 230px;
+        border-bottom: 1px solid #ccc; 
+      }
+    
+
+  }
+  

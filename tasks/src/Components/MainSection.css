@@ -1,0 +1,17 @@
+
+.main-section {
+    padding: 40px 20px;
+    text-align: center;
+  
+    h1 {
+      font-size: 5rem;
+      margin-bottom: 5px;
+      margin-top: 10px;
+    }
+  
+    p {
+      font-size: 1.25rem;
+      color: #8f8f8f;
+    }
+  }
+  
